@@ -1,0 +1,68 @@
+.menu1{
+width: 100%;
+margin: 0 auto;
+
+ }
+
+
+
+
+
+nav{
+	
+	background: #f6f6f6;
+
+}
+nav ul{
+
+	list-style: none;
+	padding: 0;
+	display: flex;
+
+}
+
+
+nav ul li{
+
+flex: 1;
+
+}
+
+
+nav ul li a{
+
+	text-decoration: none;
+	color: red;
+	text-align: center;
+	display: block;
+	padding: 10px;
+}
+nav a:hover{
+background: yellow;
+border-radius: 10px 15px;
+
+
+}
+
+@media screen and (min-width: 600){
+
+
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

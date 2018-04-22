@@ -1,0 +1,85 @@
+
+.photo{
+background-image: url(img/contact.jpg);
+min-height: 400px;
+background-attachment: all;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 90%;
+margin-left: 5.125%;
+
+}
+
+
+.seccontact{
+
+background: white;
+width: 90%;
+margin-left: 5.125%;
+display: flex;
+flex-direction: row-reverse;
+
+}
+.form{
+ flex: 1;
+margin-right: 40px;
+
+
+}
+
+
+.location{
+  flex: 1;
+  text-align: center;
+
+}
+
+
+
+/*.contactinfo{
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  margin: 130px 40px;
+ order: 3;
+
+
+
+
+}
+
+.contactinfo img{
+
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+
+.contactinfo ul{
+  list-style: none;
+  text-align: center;
+}
+
+.contactinfo li{
+  display: flex;
+  flex-direction: row;
+  font-size: 17px;
+}
+*/
+
+
+
+
+@media screen and (max-width:1150px){
+.photo{
+
+  width: 90%;
+} 
+.seccontact{
+display: flex;
+flex-direction: column;
+
+}
+}

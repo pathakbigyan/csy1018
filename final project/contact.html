@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>my first web page </title>
+  <link rel="stylesheet" type="text/css" href="header.css">
+  <link rel="stylesheet" type="text/css" href="contact-section.css">
+  <link rel="stylesheet" type="text/css" href="footer.css">
+</head>
+<body>
+
+
+
+
+<header class="container">
+  
+<div class="head1">
+
+<img class="logo" src="img/headerlogo1.png" alt="logo image">
+
+</div>
+
+
+<div class="menu1">
+  
+ <nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="cv.html">CV</a></li>
+    <li><a href="social.html">Social Sites</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="report.html" target="_blank"> report </a></li>
+
+
+
+
+  </ul>
+
+
+ </nav>
+
+
+
+</div>
+
+
+
+
+</header>
+
+<div class="photo">
+
+
+</div> 
+
+
+<section class="seccontact">
+   
+  <div class="form">
+    <h3> Contact me
+    </h3>
+    <br>
+    <form method="post" action="" submit="return validateform();">
+      <div class="naem1">
+          Full Name:
+          <br>
+          <input type="text" name="fullname">
+          <br>
+          <hr>  
+
+            
+          E-Mail:      
+          <br>
+          <input type="text" name="email">
+          <br>
+          <hr>
+          Message/Comment:
+          <br>
+          <textarea name="comtbox" rows="10" cols="55"></textarea>
+          <br>
+          <button type="submit" value="send">send</button>
+          <button type="reset" value="reset">reset</button>
+          <br>
+          <br>
+          <br>
+        </div>
+
+      </form>
+      <script type="text/javascript">
+        function validateform(form){
+          if (form.fullname.value == "") {
+
+
+            alert("please enter your name");
+            return false;
+          }
+
+          if (form.comtbox.value == "") {
+
+            alert("please enert your connent");
+            return false;
+          }
+
+          if (form.email.value == "") {
+
+            alert("please enter your email");
+            return false;
+          }
+        }
+
+
+
+
+
+      </script>
+    </div>
+    
+
+    <!--<div class="getintouch">
+      
+      <div class="contactinfo">
+        
+        <ul>
+          <h3>
+          Get In Touch
+        </h3>
+          <li> <img src="img/location.jpg" > Naranthan,Kathamandu,Nepal
+          </li> <br>
+          <li> <img src="img/call.jpg"> +977-9813008463</li> <br>
+          <li> <img src="img/msg.png"> pathakbigyan0987@gmail.com</li> <br>
+        </ul>
+      </div>   
+    </div>
+    -->
+
+    <div class="location">
+           <h3>Find Me At...</h3>
+
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d919.6935351128503!2d85.3480079142484!3d27.771199543604922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1ea38d21ab5f%3A0x9a686acfd461adbd!2sPasikot+Shiva+Temple!5e0!3m2!1sen!2snp!4v1521600545183" width="360" height="300.09" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+  
+</section>
+
+
+    <footer>
+  <div  class="container2">
+  <div class="foot1">
+
+    <ul>
+      <li> <img src="img/location.jpg" > Naranthan,Kathamandu,Nepal
+      </li> <br>
+      <li> <img src="img/call.jpg"> +977-9813008463</li> <br>
+      <li> <img src="img/msg.png"> pathakbigyan0987@gmail.com</li> <br>
+
+    </ul>
+  </div>
+   
+   <div class="get-in-touch">
+      
+      <div class="contactinfo">
+        
+        <ul>
+          <h3>
+          Get In Touch
+        </h3>
+          <li> <img src="img/location.jpg" > Naranthan,Kathamandu,Nepal
+          </li> <br>
+          <li> <img src="img/call.jpg"> +977-9813008463</li> <br>
+          <li> <img src="img/msg.png"> pathakbigyan0987@gmail.com</li> <br>
+        </ul>
+        
+      </div>
+
+  </div> 
+
+  </div> 
+  
+</footer>
+
+
+
+</body>
+</html>

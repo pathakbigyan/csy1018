@@ -1,0 +1,112 @@
+
+/* photo above the section  */
+
+.photo{
+background-image: url(img/homepage11111.jpg);
+height: 400px;
+background-attachment: all;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 90%;
+margin-left: 5.125%;
+
+}
+
+
+
+
+/* section part */
+
+.section1{
+width: 90%;
+margin-left:5.125%;
+background:#79797b;
+min-height: 500px;
+display: flex;
+flex-direction: column;
+
+
+
+}
+
+ .image1 img{
+	
+	width: 150px;
+	height: 200px;
+	border-radius: 50%;
+	margin:-9% 0% 12% 43%;
+	border: 3px solid #f9f9f9;
+	position: relative;
+  
+}
+.image1 img:hover{
+transform: scale(1.09);
+transition: transform 1s;
+/*transform: rotate(360deg);*/
+
+}
+ 
+}
+.photo p{
+	margin-top: 0px;
+}
+
+.secdiv{
+	text-align: center;
+}
+
+
+.secdiv {
+  color: black; 
+  font-family: "Courier";
+  font-size: 20px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type 5s steps(60, end); 
+  margin-left: 300px;
+}
+
+@keyframes type{ 
+  from {
+    width: 0;
+  }
+  
+}
+ 
+@media screen and (max-width:1150px){
+.secdiv{
+  position: relative;
+  margin-left: 0px;
+  font-size: 12px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

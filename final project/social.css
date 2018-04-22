@@ -1,0 +1,78 @@
+.photo{
+background-image: url(img/socialpage.jpg);
+height: 400px;
+background-attachment: all;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 90%;
+margin-left: 5.125%;
+
+}
+.socialsec{
+width: 90%;
+margin-left: 5.125%;
+background: #f6f6f6;
+display: flex;
+flex-direction: row;
+height: 0%;
+
+}
+
+
+.social1{
+background: #f9f9f9;
+flex: 1;
+text-align: center;
+
+}
+.social1 img{
+height:50px;
+border: 1px solid #000000;
+margin:5px;
+}
+.social2{
+	flex:1;
+	background: #f9f9f9;
+	border-left: 1px solid black;
+    
+}
+.social2 img{
+	width:400px;
+	margin-top: 50px;
+}
+.social2 ul li{
+	
+	list-style: none;
+}
+
+.social3{
+	flex: 1;
+	background: #f9f9f9;
+	text-align: center;
+	border-left: 1px solid black;
+}
+
+
+
+
+
+@media screen and (max-width:1150px)
+{
+.socialsec{
+width: 90%;
+margin-left: 5.125%;
+background: #f6f6f6;
+display: flex;
+flex-direction: column;
+height: 0%;
+}
+
+.social2 img{
+  width: 90%;
+  margin-bottom: 10%;
+}
+}
+
+
+

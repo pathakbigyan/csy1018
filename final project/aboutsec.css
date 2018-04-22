@@ -1,0 +1,50 @@
+.photo{
+background-image: url(img/about1.jpg);
+height: 400px;
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 90%;
+margin-left: 5.125%;
+
+}
+.mypic{
+
+display: flex;
+flex-direction: row;
+width: 90%;
+background: #f6f6f6;
+margin-left: 5.125%;
+
+}
+.mypic img{
+	width: 25%;
+	height: 25%;
+	margin: 1%;
+	border: 1px solid gray;
+	border-radius: 5%;
+	margin-left: 10%;
+}
+.mypic p{
+	margin-left: 5%;
+	font-size: 18px;
+	margin-top: 20%;
+
+}
+
+
+@media screen and (max-width:1150px){
+.mypic{
+	display: flex;
+	flex-direction: column;
+	}
+
+.mypic img{
+	margin-left: 11%;
+	width: 75%;
+}
+.mypic p{
+	text-align: center;
+}
+}

@@ -1,0 +1,73 @@
+.photo{
+background-image: url(img/cv.jpg);
+height: 400px;
+background-attachment: all;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+
+
+}
+.sectioncv{
+	background: #f9f9f9;
+	width: 90%;
+	margin: 0% 0% 0% 5.125%;
+	
+}
+
+
+.education table tr,th, td{
+	border: 1px solid #000000;
+	padding: 10px;
+	
+}
+
+.mainsection{
+	margin-left: 10px;
+	display: flex;
+	flex-direction: row;
+
+}
+.eduinfo{
+	margin:0% 0% 0% 40%;
+}
+
+.education{
+margin:0% 0% 0% 17%;
+
+
+}
+
+@media screen and (max-width:1150px){
+.mainsection{
+	margin-left: 10px;
+	display: flex;
+	flex-direction: column;
+}
+.sectioncv{
+	position: relative;
+	width: 90%;
+	
+}
+.education{
+	margin: 0%;
+	font-size: 12px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
